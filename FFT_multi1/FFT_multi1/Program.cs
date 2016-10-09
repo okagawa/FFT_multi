@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +14,17 @@ namespace FFT_multi1
         private static Complex[] omega = new Complex[n];
         private static Complex[] iomega = new Complex[n];
 
+<<<<<<< HEAD
 
         static void dft(ref double[] x, ref Complex[] y)
+=======
+		public Program()
+		{
+			
+		}
+
+        Complex[] fft(double[] x)
+>>>>>>> 1381841... test
         {
             for (int i = 0; i < n; i++)
             {
